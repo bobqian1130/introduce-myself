@@ -1,114 +1,71 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>Flexbox Pricing Table</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Sono:wght@400;700&display=swap"
-      rel="stylesheet"
-    />
-    <style>
-      body {
-        font-family: "Sono", sans-serif;
-      }
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
 
-      li{
-        list-style: none;
-      }
+  <title>Bob qian</title>
+  <link rel="stylesheet" href="./files/styles.css">
+  <link href="./files/css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com/">
+  <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="">
+  <link href="./files/css2" rel="stylesheet">
+</head>
 
-      .pricing-container {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 100vh;
-        gap: 2rem;
-      }
+<body cz-shortcut-listen="true">
+  <div class="top-container">
+    <img class="top-cloud" src="./files/cloud.png" alt="cloud">
+    <div class="title-text">
+      <h1>I'm Bob.</h1>
+      <h2>a <span class="pro">pro</span>grammer and <span class="pro">pro</span>duct manager</h2>
+    </div>
+    <img class="bottom-cloud" src="./files/cloud.png" alt="cloud">
+    <img class="mountain" src="./files/mountain.png" alt="mountain-img">
+  </div>
 
-      .pricing-plan {
-      width: 400px;  
-      flex: 1;
-      max-width: 400px;
-      padding: 20px;
-      background-color: #f2f2f2;
-      border-radius: 5px;
-      text-align: center;
-    }
+  <div class="middle-container">
+    <div class="profile">
+      <img class="icon" src="./files/icon.jpeg" alt="angela-profile-img">
+      <h2>Hello.</h2>
+      <p class="intro">I am a Full Stack Developer & Product Manager. I love coding & new technology & thinking.</p>
+    </div>
+    <hr>
+    <div class="skills">
+      <h2>My Skills</h2>
+      <div class="parent">
+        <div class="typing">
+          <img src="./files/cat-typing.gif" alt="typing cat">
+        </div>
+        <div class="coding">
+          <h3>Design &amp; Development</h3>
+          <p>I have over 10+ years coding experiences, using different coding languages like C#,Java,JS,Swift,kotlin and so on.
+            I also work as a product manager. In my opinion, as a programmer you need to thinking like a product manager.</p>
+        </div>
+        <div class="chillies">
+          <img class="chilli-img" src="./files/challenge.jpeg"  alt="chillies-img">
+        </div>
+        <div class="hot-wings">
+          <h3>My Challenge</h3>
+          <p>How to build a company which is beauty and small. I am the co-founder of a small company many years ago.
+            Peppers you can share the experiences to me.</p>
+        </div>
 
-      .plan-title {
-      font-size: 24px;
-      font-weight: bold;
-      margin-bottom: 10px;
-    }
-
-    .plan-price {
-      font-size: 48px;
-      font-weight: bold;
-      margin-bottom: 10px;
-    }
-
-    .plan-features {
-      list-style: none;
-      padding: 0;
-      margin: 0;
-      display: flex;
-      flex-direction: column;
-      align-items:center;
-    }
-
-    .plan-features li {
-      margin-bottom: 20px;
-    }
-
-    .plan-button {
-      padding: 10px;
-      background-color: #ff6600;
-      color: #fff;
-      border-radius: 5px;
-      border: none;
-    }
-      /* Hint: What can you do with a media query and flexbox? */
-      @media (max-width: 1250px) {
-        .pricing-container {
-        flex-direction: column;
-        height: 100%;
-      }
-    }
-    </style>
-  </head>
-
-  <body>
-    <div class="pricing-container">
-      <div class="pricing-plan">
-        <div class="plan-title">Basic</div>
-        <div class="plan-price">$9.99/month</div>
-        <ul class="plan-features">
-          <li>✅ 10GB Storage</li>
-          <li>✅ 1 User</li>
-          <li>🚫 Support</li>
-        </ul>
-        <button class="plan-button">Sign Up</button>
       </div>
-      <div class="pricing-plan">
-        <div class="plan-title">Standard</div>
-        <div class="plan-price">$19.99/month</div>
-        <ul class="plan-features">
-          <li>✅ 50GB Storage</li>
-          <li>✅ 5 Users</li>
-          <li>✅ Phone &amp; Email Support</li>
-        </ul>
-        <button class="plan-button">Sign Up</button>
-      </div>
-      <div class="pricing-plan">
-        <div class="plan-title">Premium</div>
-        <div class="plan-price">$49.99/month</div>
-        <ul class="plan-features">
-          <li>✅ 100GB Storage</li>
-          <li>✅ 10 Users</li>
-          <li>✅ 24/7 Support</li>
-        </ul>
-        <button class="plan-button">Sign Up</button>
+
+
+      <hr>
+      <div class="contact-me">
+        <h2>Get In Touch</h2>
+        <h3>If you love programming as much as I do.</h3>
+        <p class="contact-message">Love programming as much as I do? Let's talk about how awesome it is! We can share our experiences!</p>
+        <a class="btn" href="46896982@qq.com">CONTACT ME</a>
       </div>
     </div>
-  </body>
-</html>
+  </div>
+  <div class="bottom-container">
+    <p class="copyright">© Bob qian.</p>
+  </div>
+
+
+
+
+
+</body></html>
